@@ -1,7 +1,8 @@
 from fastapi import FastAPI,HTTPException
 from fastapi.responses import JSONResponse
 import pandas as pd
-
+import pyarrow.parquet as pq 
+import uvicorn  
 
 
 app = FastAPI(title='API Steam Games')
@@ -199,3 +200,6 @@ def sentiment_analysis(año: int):
 
 
 
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="127.0.0.1", port=8001)  # Ejecutar la aplicación con Uvicorn
