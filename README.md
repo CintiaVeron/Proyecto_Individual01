@@ -1,4 +1,4 @@
-![Logo de mi proyecto]("Proyecto_Individual01/th (6).jfif")
+![Logo de mi proyecto]("Proyecto_Individual01/th.jpg")
 """
 # PROYECTO INDIVIDUAL N°1
 
