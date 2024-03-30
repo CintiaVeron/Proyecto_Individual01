@@ -1,4 +1,4 @@
-![Logo de mi proyecto]("(th.jpg")
+<p align=center><img src=[https://mygaming.co.za/news/wp-content/uploads/2015/08/Most-popular-and-highest-rated-games-currently-on-Steam.jpg]><p>
 
 
    
@@ -6,7 +6,7 @@
 
 Machine Learning Operations (MLOps): Sistema de Recomendación de Videojuegos para Usuarios de Steam
 
-## Descripción del Proyecto:
+# <h1 align=center> **Descripción del Proyecto** </h1>
 
 Empezamos a trabajar como Data Scientist en Steam, una plataforma multinacional de videojuegos. Steam pide que nos encarguemos de crear un sistema de recomendación de videojuegos para usuarios.
 
