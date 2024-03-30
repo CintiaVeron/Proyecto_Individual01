@@ -1,5 +1,4 @@
 ![Logo de mi proyecto]("Proyecto_Individual01/th.jpg")
-"""
 # PROYECTO INDIVIDUAL N°1
 
 Machine Learning Operations (MLOps): Sistema de Recomendación de Videojuegos para Usuarios de Steam
