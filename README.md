@@ -1,3 +1,4 @@
+![Logo de mi proyecto]("\Proyecto Steam Games\th (6).jfif"")
 """
 # PROYECTO INDIVIDUAL N°1
 
