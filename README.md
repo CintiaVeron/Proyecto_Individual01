@@ -1,4 +1,4 @@
-![Logo de mi proyecto]("(https://mygaming.co.za/news/wp-content/uploads/2015/08/Most-popular-and-highest-rated-games-currently-on-Steam.jpg")
+![Logo de mi proyecto]("(th.jpg")
 
 
    
