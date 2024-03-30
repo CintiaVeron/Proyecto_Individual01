@@ -1,4 +1,4 @@
-<p align=center><img src=[https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png](https://mygaming.co.za/news/wp-content/uploads/2015/08/Most-popular-and-highest-rated-games-currently-on-Steam.jpg)><p>
+![Logo de mi proyecto]("(https://mygaming.co.za/news/wp-content/uploads/2015/08/Most-popular-and-highest-rated-games-currently-on-Steam.jpg")
 
 
    
@@ -15,8 +15,7 @@ En este proyecto, trabajamos con tres conjuntos de datos en formato JSON, los cu
 ### Fuente de datos:
 
 - [Dataset](https://drive.google.com/drive/folders/1HqBG2-sUkz_R3h1dZU5F2uAzpRn7BSpj): Carpeta con el archivo que requieren ser procesados, tengan en cuenta que hay datos que están anidados (un diccionario o una lista como valores en la fila).
-  
--[Diccionario de datos](https://docs.google.com/spreadsheets/d/1-t9HLzLHIGXvliq56UE_gMaWBVTPfrlTf2D9uAtLGrk/edit?usp=drive_link): Diccionario con algunas descripciones de las columnas disponibles en el dataset.: Diccionario con algunas descripciones de las columnas disponibles en el dataset.
+- [Diccionario de datos](https://docs.google.com/spreadsheets/d/1-t9HLzLHIGXvliq56UE_gMaWBVTPfrlTf2D9uAtLGrk/edit?usp=drive_link): Diccionario con algunas descripciones de las columnas disponibles en el dataset.: Diccionario con algunas descripciones de las columnas disponibles en el dataset.
 
 ## Etapas de Proyecto:
 
