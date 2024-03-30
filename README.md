@@ -2,7 +2,7 @@
 
 
    
-# PROYECTO INDIVIDUAL N°1
+# <h1 align=center> **PROYECTO INDIVIDUAL Nº1** </h1>
 
 Machine Learning Operations (MLOps): Sistema de Recomendación de Videojuegos para Usuarios de Steam
 
