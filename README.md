@@ -1,6 +1,8 @@
-![Logo de mi proyecto]("Proyecto_Individual01/th (6).jfif")
-"""
-# PROYECTO INDIVIDUAL N°1
+<p align=center><img src=[https://www.pcgamesn.com/wp-content/uploads/2019/11/SteamLogo.jpg]><p>
+
+
+   
+# <h1 align=center> **PROYECTO INDIVIDUAL Nº1** </h1>
 
 Machine Learning Operations (MLOps): Sistema de Recomendación de Videojuegos para Usuarios de Steam
 
@@ -22,8 +24,8 @@ En este proyecto, trabajamos con tres conjuntos de datos en formato JSON, los cu
 
 ## Fuente de datos:
 
-- Dataset: Carpeta con el archivo que requieren ser procesados, tengan en cuenta que hay datos que están anidados (un diccionario o una lista como valores en la fila).
-- Diccionario de datos: Diccionario con algunas descripciones de las columnas disponibles en el dataset.
+- [Dataset](https://drive.google.com/drive/folders/1HqBG2-sUkz_R3h1dZU5F2uAzpRn7BSpj): Carpeta con el archivo que requieren ser procesados, tengan en cuenta que hay datos que están anidados (un diccionario o una lista como valores en la fila).
+- [Diccionario de datos](https://docs.google.com/spreadsheets/d/1-t9HLzLHIGXvliq56UE_gMaWBVTPfrlTf2D9uAtLGrk/edit?usp=drive_link): Diccionario con algunas descripciones de las columnas disponibles en el dataset.: Diccionario con algunas descripciones de las columnas disponibles en el dataset.
 
 ## Etapas de Proyecto:
 
