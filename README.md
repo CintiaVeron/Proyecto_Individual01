@@ -1,7 +1,7 @@
  <h1 align=center> PROYECTO INDIVIDUAL Nº1</h1>
 
 <div align="center">
-  <img src="imagenes/th (6).jfif" alt="Steam">
+  <img src="(https://images.hdqwalls.com/download/steam-brand-logo-2560x1440.jpg)" alt="Steam">
 </div>
 
 
@@ -15,7 +15,7 @@ Machine Learning Operations (MLOps): Sistema de Recomendación de Videojuegos pa
 ![Static Badge](https://img.shields.io/badge/-Seaborn-gray?style=flat&logo=seaborn)
 ![Static Badge](https://img.shields.io/badge/-Jupyter_Notebook-gray?style=flat&logo=jupyter)
 ![Static Badge](https://img.shields.io/badge/Visual_Studio_Code-gray?style=flatlogo=visual%20studio%20code&logoColor=white)
-![Static Badge](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png)
+
 
 ## Descripción del Proyecto:
 
