@@ -1,5 +1,5 @@
-<p align=center><img src=[imagenes/th (6).jfif]><p>
 
+![Steam]imagenes/th (6).jfif)
 
    
 # <h1 align=center> **PROYECTO INDIVIDUAL Nº1** </h1>
