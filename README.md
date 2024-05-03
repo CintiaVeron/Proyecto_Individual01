@@ -28,7 +28,7 @@ En este proyecto, trabajamos con tres conjuntos de datos en formato JSON, los cu
 
 ## Etapas de Proyecto:
 
-1. ETL (Extracción, Transformación y Carga):
+## 1. ETL (Extracción, Transformación y Carga):
 
 Como primer paso en el proceso de ETL, se crearon dos funciones para poder trabajar con los archivos json que tenían columnas anidadas, para hacer más eficiente el rendimiento de los recursos de la PC.
 
