@@ -1,7 +1,7 @@
 <h1 align="center">PROYECTO INDIVIDUAL Nº1</h1>
 
 <div align="center">
-  <img src=[https://wallpaperaccess.com/full/4892311.jpg"] alt="Steam">
+  <img src="https://wallpaperaccess.com/full/4892311.jpg" alt="Steam">
 </div>
 
 
