@@ -3,10 +3,11 @@
 <div align="center">
   <img src="https://wallpaperaccess.com/full/4892311.jpg" alt="Steam">
 </div>
+  <h1 align="center">Machine Learning Operations (MLOps)</h1> 
+  
+  <h1 align="center">Sistema de Recomendación de Videojuegos para Usuarios de Steam(MLOps)</h1> 
 
-
-Machine Learning Operations (MLOps): Sistema de Recomendación de Videojuegos para Usuarios de Steam
-
+  
 ### Tegnologías Utilizadas:
 
 ![Static Badge](https://img.shields.io/badge/Python-gray?style=flat&logo=python)
@@ -92,7 +93,7 @@ Tambien se realizo un analisis se series de tiempo con  la fecha de lanzamiento 
 
 Todos los pasos los pueden ver en el Jupyter Notebook 'EDA'.
 
-3. Feature Engineering:
+## 3. Feature Engineering:
 
 El código hace uso de las siguientes bibliotecas: pandas para la manipulación y análisis de datos, y nltk para el análisis de sentimientos de texto utilizando el algoritmo VADER (Valence Aware Dictionary and sEntiment Reasoner).
 
@@ -104,7 +105,7 @@ El DataFrame actualizado, que incluye los valores de sentimiento asignados, se g
 
 Todos los pasos los pueden ver en el Jupyter Notebook 'analisis_sentimiento'.
 
-4. Funciones de Consultas:
+## 4. Funciones de Consultas:
 
 Todos los pasos los pueden ver en el Jupyter Notebook 'Endpoints'.
 
@@ -124,7 +125,7 @@ Todos los pasos los pueden ver en el Jupyter Notebook 'Endpoints'.
 5. `sentiment_analysis(año: int)`: Según el año de lanzamiento, se devuelve una lista con la cantidad de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento.
    - Ejemplo de retorno: {Negative = 182, Neutral = 120, Positive = 278}
 
-# API:
+## 5 - API:
 
 Se Muestran Deployadas las siguientes Funciones y el sistema de Recomendación:
 
@@ -139,14 +140,14 @@ Ejemplo de retorno: {"Usuario con más horas jugadas para Género X" : us213ndjs
 def recomendacion_juego( id de producto ): Ingresando el id de producto, deberíamos recibir una lista con 5 juegos recomendados similares al ingresado.
 
 # Ruta del Deploy de la API: 
+ Ruta del Deploy de la API:
 
 
+## 6 VIDEO
 
-# VIDEO
+ Ruta del Video:
 
 
-
-Ruta del Deploy de la API: 
 
 Gracias por la Visita!!
 
