@@ -7,13 +7,13 @@ Machine Learning Operations (MLOps): Sistema de Recomendación de Videojuegos pa
 
 ### Tegnologías Utilizadas:
 
+<div align="center">
 
-![Static Badge](https://img.shields.io/badge/Python-gray?style=flat&logo=python)
-![Static Badge](https://img.shields.io/badge/-Pandas-gray?style=flat&logo=pandas)
-![Static Badge](https://img.shields.io/badge/-Matplotlib-gray?style=flat&logo=matplotlib)
-![Static Badge](https://img.shields.io/badge/-Seaborn-gray?style=flat&logo=seaborn)
-![Static Badge](https://img.shields.io/badge/-Jupyter_Notebook-gray?style=flat&logo=jupyter)
-![Static Badge](https://img.shields.io/badge/Visual_Studio_Code-gray?style=flatlogo=visual%20studio%20code&logoColor=white)
+| ![Static Badge](https://img.shields.io/badge/Python-gray?style=flat&logo=python) | ![Static Badge](https://img.shields.io/badge/-Pandas-gray?style=flat&logo=pandas) | ![Static Badge](https://img.shields.io/badge/-Matplotlib-gray?style=flat&logo=matplotlib) |
+|---|---|---|
+| ![Static Badge](https://img.shields.io/badge/-Seaborn-gray?style=flat&logo=seaborn) | ![Static Badge](https://img.shields.io/badge/-Jupyter_Notebook-gray?style=flat&logo=jupyter) | ![Static Badge](https://img.shields.io/badge/Visual_Studio_Code-gray?style=flat&logo=visual%20studio%20code&logoColor=white) |
+
+</div>
 
 ## Descripción del Proyecto:
 
