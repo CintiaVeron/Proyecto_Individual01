@@ -66,7 +66,7 @@ Conclusiones:
 - Visualización de la nube de palabras: Se creó una nube de palabras utilizando los géneros de los juegos para visualizar las categorías más comunes en el conjunto de datos.
 Se verifican que los generos que resaltan mas son Adventure , Action , Casual e Indie
 
-![Texto alternativo](imagenes/generos.png)
+![Texto alternativo](imagenes/Generos.png)
 
 
 - Visualización de outliers: Se creó un diagrama de caja para visualizar la distribución de los precios y identificar outliers visualmente.Se verifica valores atipicos que se encuentra en precios superiores a 500.
