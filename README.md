@@ -1,4 +1,4 @@
-<p align=center><img src=[https://www.pcgamesn.com/wp-content/uploads/2019/11/SteamLogo.jpg]><p>
+<p align=center><img src=[imagenes/th (6).jfif]><p>
 
 
    
