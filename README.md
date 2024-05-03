@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="imagenes/th.jpg" alt="Steam">
+  <img src="imagenes/th (6).jfif" alt="Steam">
 </div>
 # <h1 align=center> **PROYECTO INDIVIDUAL Nº1** </h1>
 
