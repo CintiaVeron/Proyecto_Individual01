@@ -1,5 +1,5 @@
-
-![Steam]imagenes/th (6).jfif)
+![Steam](src/portada.png)
+<br />
 
    
 # <h1 align=center> **PROYECTO INDIVIDUAL Nº1** </h1>
