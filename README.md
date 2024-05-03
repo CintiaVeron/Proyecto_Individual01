@@ -1,4 +1,4 @@
-![Steam](src/portada.png)
+![Steam](imagenes/th.jpg)
 <br />
 
    
