@@ -49,7 +49,7 @@ Como segundo paso hicimos un Exploratory data analysis (EDA):
 
 En el archivo 'EDA' se evidencian los siguientes procesos:
 
-### Tratamimento de Nulos:
+### Tratamiento de Nulos:
 
 Se encontraron 88310 filas vacias por lo que se eliminaron las mismas quedando un total de 22511 regitros en el dataset
 
@@ -63,7 +63,7 @@ Conclusiones:
 -la columna precio se la paso a Float.Se verifica que en la columna precio había otros formatos como ejemplo  Free to Use, Free to Play los cuales se reemplazaron  por 0.00.
 -Se renombraron las columnas:'genres':'genero','title':'titulo','release_date':'anio_lanzamiento','price':'precio','id':'id_contenido','developer':'desarrollador'
 
-### Analisis Exploratorio:
+### Análisis Exploratorio:
 
 - Visualización de la nube de palabras: Se creó una nube de palabras utilizando los géneros de los juegos para visualizar las categorías más comunes en el conjunto de datos.
 Se verifican que los generos que resaltan mas son Adventure , Action , Casual e Indie
@@ -76,10 +76,10 @@ Se verifican que los generos que resaltan mas son Adventure , Action , Casual e 
 ![Texto alternativo](imagenes/output.png)
 
 - Visualización de la distribución de años de lanzamiento: Se creó un histograma para visualizar la distribución de los años de lanzamiento de los juegos en el conjunto de datos.
+  
 ![Texto alternativo](imagenes/juegos_por_año.png)
 
 - Resumen estadístico de las columnas numéricas: Se utilizó la función describe() para obtener un resumen estadístico de las columnas numéricas del DataFrame donde vemos  una media de $8,96 un precio min de 0.00 y un maximo de 995.000 con una desviasion estandar de 15.42
-
 
 
 -Se comparó el precio promedio por cada desarrollador y se verifica que los desarrollodares con precios mas caros son Ruhrsource y strata mixed reality.
