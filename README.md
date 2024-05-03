@@ -1,7 +1,7 @@
- <h1 align=center> PROYECTO INDIVIDUAL Nº1</h1>
+<h1 align="center">PROYECTO INDIVIDUAL Nº1</h1>
 
 <div align="center">
-  <img src="(https://images.hdqwalls.com/download/steam-brand-logo-2560x1440.jpg)" alt="Steam">
+  <img src="https://images.hdqwalls.com/download/steam-brand-logo-2560x1440.jpg" alt="Steam">
 </div>
 
 
