@@ -1,13 +1,13 @@
-<p align=center><img src=[https://www.pcgamesn.com/wp-content/uploads/2019/11/SteamLogo.jpg]><p>
+<h1 align="center">PROYECTO INDIVIDUAL Nº1</h1>
 
+<div align="center">
+  <img src="https://wallpaperaccess.com/full/4892311.jpg" alt="Steam">
+</div>
+  <h1 align="center">Machine Learning Operations (MLOps)</h1> 
+  
+  <h1 align="center">Sistema de Recomendación de Videojuegos para Usuarios de Steam(MLOps)</h1> 
 
-   
-# <h1 align=center> **PROYECTO INDIVIDUAL Nº1** </h1>
-
-Machine Learning Operations (MLOps): Sistema de Recomendación de Videojuegos para Usuarios de Steam
-
-### Tegnologías Utilizadas:
-
+  ### Tegnologías Utilizadas:
 
 ![Static Badge](https://img.shields.io/badge/Python-gray?style=flat&logo=python)
 ![Static Badge](https://img.shields.io/badge/-Pandas-gray?style=flat&logo=pandas)
@@ -29,7 +29,7 @@ En este proyecto, trabajamos con tres conjuntos de datos en formato JSON, los cu
 
 ## Etapas de Proyecto:
 
-1. ETL (Extracción, Transformación y Carga):
+## 1. ETL (Extracción, Transformación y Carga):
 
 Como primer paso en el proceso de ETL, se crearon dos funciones para poder trabajar con los archivos json que tenían columnas anidadas, para hacer más eficiente el rendimiento de los recursos de la PC.
 
@@ -47,7 +47,7 @@ Como segundo paso hicimos un Exploratory data analysis (EDA):
 
 En el archivo 'EDA' se evidencian los siguientes procesos:
 
-### Tratamimento de Nulos:
+### Tratamiento de Nulos:
 
 Se encontraron 88310 filas vacias por lo que se eliminaron las mismas quedando un total de 22511 regitros en el dataset
 
@@ -61,12 +61,12 @@ Conclusiones:
 -la columna precio se la paso a Float.Se verifica que en la columna precio había otros formatos como ejemplo  Free to Use, Free to Play los cuales se reemplazaron  por 0.00.
 -Se renombraron las columnas:'genres':'genero','title':'titulo','release_date':'anio_lanzamiento','price':'precio','id':'id_contenido','developer':'desarrollador'
 
-### Analisis Exploratorio:
+### Análisis Exploratorio:
 
 - Visualización de la nube de palabras: Se creó una nube de palabras utilizando los géneros de los juegos para visualizar las categorías más comunes en el conjunto de datos.
 Se verifican que los generos que resaltan mas son Adventure , Action , Casual e Indie
 
-![Texto alternativo](imagenes/generos.png)
+![Texto alternativo](imagenes/Generos.png)
 
 
 - Visualización de outliers: Se creó un diagrama de caja para visualizar la distribución de los precios y identificar outliers visualmente.Se verifica valores atipicos que se encuentra en precios superiores a 500.
@@ -74,10 +74,10 @@ Se verifican que los generos que resaltan mas son Adventure , Action , Casual e 
 ![Texto alternativo](imagenes/output.png)
 
 - Visualización de la distribución de años de lanzamiento: Se creó un histograma para visualizar la distribución de los años de lanzamiento de los juegos en el conjunto de datos.
+  
 ![Texto alternativo](imagenes/juegos_por_año.png)
 
 - Resumen estadístico de las columnas numéricas: Se utilizó la función describe() para obtener un resumen estadístico de las columnas numéricas del DataFrame donde vemos  una media de $8,96 un precio min de 0.00 y un maximo de 995.000 con una desviasion estandar de 15.42
-
 
 
 -Se comparó el precio promedio por cada desarrollador y se verifica que los desarrollodares con precios mas caros son Ruhrsource y strata mixed reality.
@@ -91,7 +91,7 @@ Tambien se realizo un analisis se series de tiempo con  la fecha de lanzamiento 
 
 Todos los pasos los pueden ver en el Jupyter Notebook 'EDA'.
 
-3. Feature Engineering:
+## 3. Feature Engineering:
 
 El código hace uso de las siguientes bibliotecas: pandas para la manipulación y análisis de datos, y nltk para el análisis de sentimientos de texto utilizando el algoritmo VADER (Valence Aware Dictionary and sEntiment Reasoner).
 
@@ -103,7 +103,7 @@ El DataFrame actualizado, que incluye los valores de sentimiento asignados, se g
 
 Todos los pasos los pueden ver en el Jupyter Notebook 'analisis_sentimiento'.
 
-4. Funciones de Consultas:
+## 4. Funciones de Consultas:
 
 Todos los pasos los pueden ver en el Jupyter Notebook 'Endpoints'.
 
@@ -123,33 +123,24 @@ Todos los pasos los pueden ver en el Jupyter Notebook 'Endpoints'.
 5. `sentiment_analysis(año: int)`: Según el año de lanzamiento, se devuelve una lista con la cantidad de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento.
    - Ejemplo de retorno: {Negative = 182, Neutral = 120, Positive = 278}
 
-# API:
+## 5 - API:
+Se utilizó Fast Api y Render para hacer el Deploy de las funciones y el sistema de Recomendacion
 
-Se Muestran Deployadas las siguientes Funciones y el sistema de Recomendación:
+En el Jupiter Notebook denominado main.py se pueden observar los endopoints a las siguientes funciones tomando como csv los archivos:
+funcion1_2.csv para las funciones PlayTimeGenre y UserForGenre donde se recibe la entrada de un Género especifico y muestra el año con mas horas jugadas y en la segunda funcion el usuario con mas horas jugadas en dicho genero y una lista de la acumulacion de horas jugadas para dicho usuario.
+En el Endopoint para el Sistema de Recomendacion se utiliza el csv df_ml.csv y top_100_juegos.csv ya que para nuestro MPV solo utilizamo el top 100 de los juegos mas jugados y esto nos debe mostrar al ingresar un Item_ID una recomendacion de 5 juegos similares.
 
-### def PlayTimeGenre( genero : str ): Debe devolver año con mas horas jugadas para dicho género.
-Ejemplo de retorno: {"Año de lanzamiento con más horas jugadas para Género X" : 2013}
+### Ruta del Deploy de la API: 
 
-### def UserForGenre( genero : str ): Debe devolver el usuario que acumula más horas jugadas para el género dado y una lista de la acumulación de horas jugadas por año.
-Ejemplo de retorno: {"Usuario con más horas jugadas para Género X" : us213ndjss09sdf, "Horas jugadas":[{Año: 2013, Horas: 203}, {Año: 2012, Horas: 100}, {Año: 2011, Horas: 23}]}
+ Ruta del Deploy de la API: https://proyecto-individual01-2etz.onrender.com/docs#/
 
-### Sistema de recomendación item-item:
+## 6 VIDEO
+Para finalizar se deja un video explicativo sobre la APi y sus funciones.
 
-def recomendacion_juego( id de producto ): Ingresando el id de producto, deberíamos recibir una lista con 5 juegos recomendados similares al ingresado.
+ ### Ruta del Video:
 
-# Ruta del Deploy de la API: 
+Gracias por la visita , cualquier consulta me encuentro disponible a consultas 
 
-
-
-# VIDEO
-
-
-
-Ruta del Deploy de la API: 
-
-Gracias por la Visita!!
-
-Disponible a Consultas
 
 <div align="center">
   <a href='https://www.linkedin.com/in/cintia-veron-93963a226/'>
