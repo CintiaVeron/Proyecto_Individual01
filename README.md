@@ -126,32 +126,23 @@ Todos los pasos los pueden ver en el Jupyter Notebook 'Endpoints'.
    - Ejemplo de retorno: {Negative = 182, Neutral = 120, Positive = 278}
 
 ## 5 - API:
+Se utilizó Fast Api y Render para hacer el Deploy de las funciones y el sistema de Recomendacion
 
-Se Muestran Deployadas las siguientes Funciones y el sistema de Recomendación:
+En el Jupiter Notebook denominado main.py se pueden observar los endopoints a las siguientes funciones tomando como csv los archivos:
+funcion1_2.csv para las funciones PlayTimeGenre y UserForGenre donde se recibe la entrada de un Género especifico y muestra el año con mas horas jugadas y en la segunda funcion el usuario con mas horas jugadas en dicho genero y una lista de la acumulacion de horas jugadas para dicho usuario.
+En el Endopoint para el Sistema de Recomendacion se utiliza el csv df_ml.csv y top_100_juegos.csv ya que para nuestro MPV solo utilizamo el top 100 de los juegos mas jugados y esto nos debe mostrar al ingresar un Item_ID una recomendacion de 5 juegos similares.
 
-### def PlayTimeGenre( genero : str ): Debe devolver año con mas horas jugadas para dicho género.
-Ejemplo de retorno: {"Año de lanzamiento con más horas jugadas para Género X" : 2013}
+### Ruta del Deploy de la API: 
 
-### def UserForGenre( genero : str ): Debe devolver el usuario que acumula más horas jugadas para el género dado y una lista de la acumulación de horas jugadas por año.
-Ejemplo de retorno: {"Usuario con más horas jugadas para Género X" : us213ndjss09sdf, "Horas jugadas":[{Año: 2013, Horas: 203}, {Año: 2012, Horas: 100}, {Año: 2011, Horas: 23}]}
-
-### Sistema de recomendación item-item:
-
-def recomendacion_juego( id de producto ): Ingresando el id de producto, deberíamos recibir una lista con 5 juegos recomendados similares al ingresado.
-
-# Ruta del Deploy de la API: 
- Ruta del Deploy de la API:
-
+ Ruta del Deploy de la API: https://proyecto-individual01-2etz.onrender.com/docs#/
 
 ## 6 VIDEO
+Para finalizar se deja un video explicativo sobre la APi y sus funciones.
 
- Ruta del Video:
+ ### Ruta del Video:
 
+Gracias por la visita , cualquier consulta me encuentro disponible a consultas 
 
-
-Gracias por la Visita!!
-
-Disponible a Consultas
 
 <div align="center">
   <a href='https://www.linkedin.com/in/cintia-veron-93963a226/'>
