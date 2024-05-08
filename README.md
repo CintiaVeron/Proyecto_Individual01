@@ -137,7 +137,7 @@ En el Endopoint para el Sistema de Recomendacion se utiliza el csv df_ml.csv y t
 ## 6 VIDEO
 Para finalizar se deja un video explicativo sobre la APi y sus funciones.
 
- ### Ruta del Video:
+ ### Ruta del Video: https://drive.google.com/file/d/1-4UDnO9d9PpI0es1-gUDyqKL7IjFiamt/view?usp=drive_link
 
 Gracias por la visita , cualquier consulta me encuentro disponible a consultas 
 
