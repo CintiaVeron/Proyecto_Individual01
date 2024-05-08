@@ -134,12 +134,14 @@ En el Endopoint para el Sistema de Recomendacion se utiliza el csv df_ml.csv y t
 
  Ruta del Deploy de la API: https://proyecto-individual01-2etz.onrender.com/docs#/
 
-## 6 VIDEO
+## 6- VIDEO
 Para finalizar se deja un video explicativo sobre la APi y sus funciones.
 
- ### Ruta del Video: https://drive.google.com/file/d/1-4UDnO9d9PpI0es1-gUDyqKL7IjFiamt/view?usp=drive_link
+Ruta del Video: https://drive.google.com/file/d/1-4UDnO9d9PpI0es1-gUDyqKL7IjFiamt/view?usp=drive_link
 
-Gracias por la visita , cualquier consulta me encuentro disponible a consultas 
+
+
+Gracias por la visita , cualquier consulta me encuentro a disposición.
 
 
 <div align="center">
